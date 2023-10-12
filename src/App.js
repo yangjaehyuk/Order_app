@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import SummaryPage from './pages/SummaryPage';
+import OrderPage from './pages/OrderPage';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{ padding: '4rem' }}>
+      <OrderPage></OrderPage>
       <SummaryPage></SummaryPage>
     </div>
   );
